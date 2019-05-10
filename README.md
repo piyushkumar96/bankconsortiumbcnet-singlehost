@@ -6,7 +6,7 @@
 
 2. Then I had **UP** the initial blockchain network which consists of **3 ORGs, 9 PEERS, 3 CAs, 2 CHANNELS**.
 
-3. After this I used the scripts to join peers.
+3. After this I have joined the peers.
 
 4. Added new peer to exsisting org.
 
@@ -15,19 +15,6 @@
 6. Created new channel.
 
 7. Adding org to channel in which it is not present.  
-
-
-## Technology STACK
-1. Hyperledger Fabric(v1.4)
-2. Golang and Nodejs (Chaincode)
-3. Docker & Container
-4. Shell Scripting
-5. Python
-
-## System and Software Requirments
-1. Ubuntu, Docker, Golang, Python.
-2. Download hypeledger fabric binaries like cryptogen, configtxgen etc. basic bin folder of fabric-samples outside the this repo (after clonning).
-3. Download Chaincode folder just outside this repo (after clonning).
 
 -----------------------------------------------------------------------------------------------------------------------------
                                                 Command to see the containers of blockchain network
