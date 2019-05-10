@@ -1,0 +1,27 @@
+OrdererOrgs:
+- Domain: bankconsortiumbcnet.com
+  Name: Orderer
+  Specs:
+  - {Hostname: orderer}
+PeerOrgs:
+- Domain: sbi.bankconsortiumbcnet.com
+  EnableNodeOUs: true
+  Name: sbi
+  Template: {Count: 3}
+  Users: {Count: 1}
+- Domain: hdfc.bankconsortiumbcnet.com
+  EnableNodeOUs: true
+  Name: hdfc
+  Template: {Count: 4}
+  Users: {Count: 1}
+- Domain: icici.bankconsortiumbcnet.com
+  EnableNodeOUs: true
+  Name: icici
+  Template: {Count: 5}
+  Users: {Count: 1}
+- Domain: pnb.bankconsortiumbcnet.com
+  EnableNodeOUs: true
+  Name: pnb
+  Template: {Count: 3}
+  Users: {Count: 10}
+#neworgcryptoconfig
